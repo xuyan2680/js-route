@@ -1,6 +1,6 @@
 #js-route
 ### html 代码
-	<body\>
+	<body>
 		<div id="test">
 		<a href="type/page/1"\>type/page/1</a>
 		<a href="type/page/2"\>type/page/2</a>
@@ -9,17 +9,17 @@
 		</div>
 	</body>
 ### js 代码
- \<script type="text/javascript"\> <br>
-	$(function(){ <br>
-		//注册路由 与 回调方法 <br>
-		$.useRoute({ <br>
-			"type/page/{id}":function(retobj){ <br>
-				alert(retobj.id) <br>
-			}, <br>
-			"type/{type}/id/{id}":function(retobj){ <br>
-				alert(retobj.type+'||'+retobj.id) <br>
-			} <br>
-		}); <br>
-	}); <br>
- \</script\>
+	<script type="text/javascript"> <br>
+		$(function(){
+			//注册路由 与 回调方法
+			$.useRoute({
+				"type/page/{id}":function(retobj){
+					alert(retobj.id);
+				}, <br>
+				"type/{type}/id/{id}":function(retobj){
+					alert(retobj.type+'||'+retobj.id);
+				}
+			});
+		});
+ 	</script>
 
