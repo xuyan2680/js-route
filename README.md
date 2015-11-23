@@ -1,5 +1,5 @@
 #js-route
-
+###
 \<body\> <br>
     \<div id="test"\> <br>
 		\<a href="type/page/1"\>type/page/1\</a\> <br>
@@ -8,7 +8,7 @@
 		\<a href="type/1/id/3"\>type/1/id/3\</a\> <br>
 	\</div> <br>
  \</body> <br>
-
+###
  \<script type="text/javascript"\> <br>
 	$(function(){ <br>
 		//注册路由 与 回调方法 <br>
