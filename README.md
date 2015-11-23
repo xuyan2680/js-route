@@ -9,17 +9,17 @@
 	\</div> <br>
  \</body> <br>
 
- \<script type="text/javascript"\>
-	$(function(){
-		//注册路由 与 回调方法
-		$.useRoute({
-			"type/page/{id}":function(retobj){
-				alert(retobj.id)
-			},
-			"type/{type}/id/{id}":function(retobj){
-				alert(retobj.type+'||'+retobj.id)
-			}
-		});
-	});
+ \<script type="text/javascript"\> <br>
+	$(function(){ <br>
+		//注册路由 与 回调方法 <br>
+		$.useRoute({ <br>
+			"type/page/{id}":function(retobj){ <br>
+				alert(retobj.id) <br>
+			}, <br>
+			"type/{type}/id/{id}":function(retobj){ <br>
+				alert(retobj.type+'||'+retobj.id) <br>
+			} <br>
+		}); <br>
+	}); <br>
  \</script\>
 
