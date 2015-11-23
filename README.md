@@ -1,15 +1,15 @@
 # js-route
 
-#<body>
+# <body>
 #	<div id="test">
 #		<a href="#type/page/1">#type/page/1</a>
 #		<a href="#type/page/2">#type/page/2</a>
 #		<a href="#type/page/3">#type/page/3</a>
 #		<a href="#type/1/id/3">#type/1/id/3</a>
 #	</div>
-#</body>
+# </body>
 
-#<script type="text/javascript">
+# <script type="text/javascript">
 #	$(function(){
 #		//注册路由 与 回调方法
 #		$.useRoute({
@@ -21,5 +21,5 @@
 #			}
 #		});
 #	});
-#</script>
+# </script>
 
