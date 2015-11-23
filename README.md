@@ -1,5 +1,5 @@
 # js-route
-
+/*
 <body>
 	<div id="test">
 		<a href="#type/page/1">#type/page/1</a>
@@ -22,3 +22,4 @@
 		});
 	});
 </script>
+*/
