@@ -1,13 +1,13 @@
 #js-route
 ### html 代码
-	<body\> <br>
-		<div id="test"\> <br>
-		\<a href="type/page/1"\>type/page/1\</a\> <br>
-		\<a href="type/page/2"\>type/page/2\</a\> <br>
-		\<a href="type/page/3"\>type/page/3\</a\> <br>
-		\<a href="type/1/id/3"\>type/1/id/3\</a\> <br>
-		\</div> <br>
-	</body> <br>
+	<body\>
+		<div id="test">
+		<a href="type/page/1"\>type/page/1</a>
+		<a href="type/page/2"\>type/page/2</a>
+		<a href="type/page/3"\>type/page/3</a>
+		<a href="type/1/id/3"\>type/1/id/3</a>
+		</div>
+	</body>
 ### js 代码
  \<script type="text/javascript"\> <br>
 	$(function(){ <br>
