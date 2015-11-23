@@ -1,7 +1,7 @@
 #js-route
 ### html 代码
 \<body\> <br>
-    \<div id="test"\> <br>
+	\<div id="test"\> <br>
 		\<a href="type/page/1"\>type/page/1\</a\> <br>
 		\<a href="type/page/2"\>type/page/2\</a\> <br>
 		\<a href="type/page/3"\>type/page/3\</a\> <br>
